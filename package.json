@@ -1,0 +1,25 @@
+{
+  "name": "lu",
+  "version": "1.0.0",
+  "description": "Mi primer repo Portfolio DG 2022\r Hola a todos, este es mi primer Repo en GitHub para el curso de Desarrollo Web en Coder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm   run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuciaDelaTorre/PortfolioDG2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuciaDelaTorre/PortfolioDG2022/issues"
+  },
+  "homepage": "https://github.com/LuciaDelaTorre/PortfolioDG2022#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
